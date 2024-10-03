@@ -2,16 +2,16 @@ SIMPLE ATM SOFTWARE-C#
 
 ATM Machine 
 
-using System;
-class Program
-{
-    public static void Main()
-    {
-        int amount = 2034, deposit, withdraw;
-        int choice, pin = 0;
-        
-        Console.WriteLine("Enter Your 4 Digit Pin: ");
-        pin = int.Parse(Console.ReadLine());
+        using system;
+        class program
+        {
+            public static void Main()
+            {
+               int amount = 2034, deposit, withdraw;
+               int choice, pin = 0;
+
+               console.writeline("Enter Your 4 Digit Pin: ");
+               pin = int.parse(Console.ReadLine());
 
         while (true)
         {
