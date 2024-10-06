@@ -1,17 +1,17 @@
 SIMPLE ATM SOFTWARE-C#
 
-ATM Machine 
+ATM Machine
 
         using system;
-        class program
+        class Program
         {
-            public static void Main()
-            {
-               int amount = 2034, deposit, withdraw;
-               int choice, pin = 0;
-
-               console.writeline("Enter Your 4 Digit Pin: ");
-               pin = int.parse(Console.ReadLine());
+           public static void main()
+           {
+              int amount = 20000, deposit, withdraw;
+              int choice, pin = 0;
+              
+              Console.WriteLine("Enter Your 4 Digit Pin: ");
+        pin = int.Parse(Console.ReadLine());
 
         while (true)
         {
@@ -39,7 +39,7 @@ ATM Machine
                     {
                         Console.WriteLine("\nPLEASE ENTER THE AMOUNT IN MULTIPLES OF 100");
                     }
-                    else if (withdraw > (amount - 1000))
+                    else if (withdraw > (amount - 1))
                     {
                         Console.WriteLine("\nSORRY! INSUFFICIENT BALANCE");
                     }
@@ -69,5 +69,5 @@ ATM Machine
             }
         }
     }
-}A
+}
 
